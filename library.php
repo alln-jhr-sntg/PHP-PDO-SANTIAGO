@@ -13,7 +13,7 @@
     $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 
     // Uncomment the desired query block to execute
-    
+
     /*INSERT query
     $title = "Scout's Guide to the Galaxy";
     $author = "Douglas Adams";
@@ -68,6 +68,7 @@
 
     /* DELETE query
     $id_delete = 4;
+    
     $sql = "DELETE FROM books WHERE id = :idz";
     $statement = $conn->prepare($sql);
     $statement->execute([':idz' => $id_delete]);
