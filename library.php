@@ -12,6 +12,8 @@
 
     $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 
+    // Uncomment the desired query block to execute
+    
     /*INSERT query
     $title = "Scout's Guide to the Galaxy";
     $author = "Douglas Adams";
